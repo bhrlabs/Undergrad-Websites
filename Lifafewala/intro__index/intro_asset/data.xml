@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<main 
+
+	stageWidth=""
+	stageHeight="400"
+	stageBgColor="EEEEEE"
+	
+	shadowPath="intro_asset/shadow.png"
+	ShadowVerticalSpace="20"
+	
+	button = "yes"
+	buttonAlign = "BC"
+	buttonSpacig = "0,0,0,-32"
+	buttonImageNormal = "intro_asset/button_normal.png"
+	buttonImageRollOver = "intro_asset/button_over.png"
+
+>
+
+<define_animation_Style>
+
+	<style  Name = "style1"
+			
+			Animation_Start_Direction = "3"
+			Animation_Continue = "no"
+			Animation_Blur = "yes"
+			Animation_Glow = "yes"
+			
+			Shadow_Transparency = "0"
+			
+			Background_Color = "ffffff"
+			Background_Transparency = "0"
+			Background_Blur_Transparency = "0"
+			
+			Reflection_Transparency = "50"
+			Reflection_Distance = "1"
+			Reflection_Depth = "50"
+	/>
+
+	<style  Name = "style2"
+			
+			Animation_Start_Direction = "0"
+			Animation_Continue = "no"
+			Animation_Blur = "no"
+			Animation_Glow = "no"
+
+			Shadow_Transparency = "0"
+			
+			Background_Color = ""
+			Background_Transparency = "0"
+			Background_Blur_Transparency = "0"
+			
+			Reflection_Transparency = "0"
+			Reflection_Distance = "1"
+			Reflection_Depth = "50"
+	/>
+
+</define_animation_Style>
+
+
+
+
+
+
+<data>
+
+<!-- slide1  -->
+	<slide 
+		Background_image = "intro_asset/bg_image1.jpg" 
+		Background_MaskAnimationHorizontal = ""
+		Background_MaskSize=""
+		Background_BrightnessEffect = "yes"
+	>
+	
+		<image
+			Align = "C"
+			Spacing = "0,50,0,45"
+			In_Time = "0"
+			Stay_Time = "25"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "3"
+			Animation_Continue = "yes"
+			Reflection_Transparency = "0"
+			
+		>
+	
+			<path> <![CDATA[intro_asset/logo.png]]></path>
+
+		</image>
+	
+		<text
+			Align = "C"
+			Spacing = "0,0,30,0"
+			In_Time = "0"
+			Stay_Time = "25"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style1"
+			Animation_Start_Direction = "3"
+			Animation_Continue = "yes"
+			Reflection_Distance = "-5"
+			Reflection_Depth = "70"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="30" >COMPANY NAME</font></b>]]></text> 
+		
+		</text>
+	
+	
+		<text
+			Align = "C"
+			Spacing = "0,0,15,0"
+			In_Time = "25"
+			Stay_Time = "25"
+			Text_Align = "2"
+			Text_LineSpacing = "-5"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction="5"
+			Shadow_Transparency = "100"
+			Animation_Blur = "yes"
+			Animation_Continue = "yes"
+		>
+			<text font="1" In_Time="0" ><![CDATA[<font size="28" ><b>FLASH INTRO / BANNER ROTATOR - FULL XML DRIVEN</b></font>]]></text> 
+		</text>
+
+
+	</slide>
+	
+
+
+<!-- slide2  -->
+	<slide 
+		Background_image = "intro_asset/bg_image2.jpg" 
+		Background_MaskAnimationHorizontal = "no"
+		Background_MaskSize="70"
+		Background_BrightnessEffect = "yes"
+	>
+	
+		<text
+			Align = "C"
+			Spacing = "0,0,0,0"
+			In_Time = "0"
+			Stay_Time = "18"
+			Text_Align = "2"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction="1"
+			Background_Transparency = "0"
+			Background_Blur_Transparency = "100"
+			Animation_Blur = "yes"
+		>
+			<text font="1" In_Time="0" ><![CDATA[<font size="20"><b>Set <font size="25" color="#00f0ff">IMAGE <font color="#FFFFFF">/</font> TEXT</font> animation direction</b></font>]]></text> 
+		</text>
+
+		<text
+			Align = "C"
+			Spacing = "0,0,0,0"
+			In_Time = "18"
+			Stay_Time = "30"
+			Text_Align = "2"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction="1"
+			Background_Blur_Transparency = "100"
+			Animation_Blur = "yes"
+			Animation_Glow = "yes"
+		>
+			<text font="1" In_Time="0" ><![CDATA[<font size="20">Option to Add <font size="25" color="#00f0ff">GLOW <font color="#FFFFFF">and</font> BLUR</font> effect</b></font>]]></text> 
+		</text>
+
+		<text
+			Align = "C"
+			Spacing = "0,0,0,0"
+			In_Time = "50"
+			Stay_Time = "20"
+			Text_Align = "2"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction="1"
+			Background_Transparency = "40"
+			Animation_Blur = "yes"
+			Background_Blur_Transparency = "100"
+		>
+			<text font="1" In_Time="0" ><![CDATA[<font size="20"><b>Text support basic <font size="25" color="#00f0ff">HTML</font> format</b></font>]]></text> 
+		</text>
+		
+		<text
+			Align = "TL"
+			Spacing = "20,0,20,0"
+			In_Time = "70"
+			Stay_Time = "15"
+			Text_Align = "0"
+			Text_LineSpacing = "-2"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction="0"
+			Background_Transparency = "70"
+			Animation_Blur = "no"
+		>
+			<text font="2" In_Time="0" ><![CDATA[<font size="20" ><b>Horizontal / Vertical Mask Transition for Background Image</b></font>]]></text> 
+			<text font="2" In_Time="15" ><![CDATA[<font size="20" ><b>Set Mask Size</b></font>]]></text>  
+			<text font="2" In_Time="10" ><![CDATA[<font size="20"  color="#00f0ff" ><b>Add Brightness / Darkness Effect</b></font>]]></text>
+		</text>
+
+
+	</slide>
+
+
+<!-- slide3  -->
+	<slide 
+		Background_image = "intro_asset/bg_image3.jpg" 
+		Background_MaskAnimationHorizontal = ""
+		Background_MaskSize=""
+		Background_BrightnessEffect = "no"
+	>
+	
+	<!-- Display 1 -->
+		<image
+			Align = "CL"
+			Spacing = "90,0,40,0"
+			In_Time = "0"
+			Stay_Time = "25" 
+
+			set_animation_style = "style1"
+			Animation_Start_Direction="1"
+			Animation_Glow = "no"
+			Animation_Continue = "yes"
+		>
+
+			<path> <![CDATA[intro_asset/image2.jpg]]></path>
+
+		</image>
+		
+		<text
+			Align = "CR"
+			Spacing = "0,120,20,0"
+			In_Time = "0"
+			Stay_Time = "25"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style1"
+			Animation_Start_Direction = "3"
+			Animation_Continue = "yes"
+			Reflection_Transparency = "0"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="25" >IMAGE WITH TEXT</font></b>]]></text> 
+		
+		</text>
+	
+	<!-- Display 2 -->
+	
+		<image
+			Align = "CL"
+			Spacing = "100,0,40,0"
+			In_Time = "32"
+			Stay_Time = "20" 
+
+			set_animation_style = "style1"
+			Animation_Start_Direction="2"
+			Animation_Glow = "no"
+			Animation_Continue = "yes"
+		>
+
+			<path> <![CDATA[intro_asset/image3.jpg]]></path>
+
+		</image>
+		
+		<text
+			Align = "CR"
+			Spacing = "0,100,20,0"
+			In_Time = "32"
+			Stay_Time = "20"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style1"
+			Animation_Start_Direction = "1"
+			Animation_Continue = "yes"
+			Reflection_Transparency = "0"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="25" >Show unlimited images</font></b>]]></text> 
+		
+		</text>
+	
+	<!-- Display 3 -->
+	
+		<image
+			Align = "CL"
+			Spacing = "90,0,40,0"
+			In_Time = "60"
+			Stay_Time = "30" 
+
+			set_animation_style = "style1"
+			Animation_Start_Direction="1"
+			Animation_Glow = "no"
+			Animation_Continue = "yes"
+		>
+
+			<path> <![CDATA[intro_asset/image4.jpg]]></path>
+
+		</image>
+		
+		<text
+			Align = "CR"
+			Spacing = "0,70,20,0"
+			In_Time = "60"
+			Stay_Time = "25"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style1"
+			Animation_Start_Direction = "3"
+			Animation_Continue = "yes"
+			Reflection_Transparency = "0"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="25" >Position any where</font></b>]]></text> 
+			<text font="1" In_Time="5" ><![CDATA[<b><font size="25" >Second Text Line</font></b>]]></text>
+		
+		</text>
+		
+	
+	</slide>
+
+
+<!-- slide4  -->
+	<slide 
+		Background_image = "intro_asset/bg_image4.jpg" 
+		Background_MaskAnimationHorizontal = "yes"
+		Background_MaskSize="60"
+		Background_BrightnessEffect = ""
+	>
+	
+	<!-- Display 1 -->
+		<image
+			Align = "C"
+			Spacing = "0,135,0,30"
+			In_Time = "0"
+			Stay_Time = "20" 
+
+			set_animation_style = "style1"
+			Animation_Start_Direction="4"
+			Reflection_Transparency = "0"
+			Animation_Glow = "no"
+			Animation_Continue = "yes"
+		>
+
+			<path> <![CDATA[intro_asset/image5.jpg]]></path>
+
+		</image>
+		
+		<text
+			Align = "C"
+			Spacing = "130,0,0,20"
+			In_Time = "0"
+			Stay_Time = "20"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "5"
+			Animation_Continue = "yes"
+			Background_Blur_Transparency = "100"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="25" color="#000000" >VERTICAL ANIMATION</font></b>]]></text> 
+		
+		</text>
+	
+	<!-- Display 2 -->
+	
+		<image
+			Align = "C"
+			Spacing = "0,135,10,0"
+			In_Time = "25"
+			Stay_Time = "25" 
+
+			set_animation_style = "style1"
+			Animation_Start_Direction="5"
+			Reflection_Transparency = "0"
+			Animation_Glow = "no"
+			Animation_Continue = "yes"
+		>
+
+			<path> <![CDATA[intro_asset/image6.jpg]]></path>
+
+		</image>
+		
+		<text
+			Align = "C"
+			Spacing = "155,0,0,20"
+			In_Time = "25"
+			Stay_Time = "25"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "4"
+			Animation_Continue = "yes"
+			Background_Blur_Transparency = "100"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="25" >SET ANIMATION DIRECTION</font></b>]]></text> 
+		
+		</text>
+	
+	<!-- Display 3 -->
+	
+		<image
+			Align = "CL"
+			Spacing = "80,0,0,0"
+			In_Time = "55"
+			Stay_Time = "32" 
+
+			set_animation_style = "style2"
+			Animation_Start_Direction="1"
+			Animation_Glow = "no"
+			Animation_Continue = "yes"
+		>
+
+			<path> <![CDATA[intro_asset/image7.jpg]]></path>
+
+		</image>
+		
+		<text
+			Align = "CR"
+			Spacing = "0,80,0,0"
+			In_Time = "55"
+			Stay_Time = "25"
+			Text_Align = "0"
+			Text_LineSpacing = "4"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "3"
+			Animation_Continue = "yes"
+			Background_Color = "2e75c5"
+			Background_Transparency  = "100"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="20" >SET TWO TYPE FONT</font></b>]]></text> 
+			<text font="2" In_Time="5" ><![CDATA[<b><font size="20" color="#00f0ff">FOR EACH TEXT</font></b>]]></text>
+		
+		</text>
+		
+	
+	</slide>
+
+
+<!-- slide5  -->
+	<slide 
+		Background_image = "intro_asset/bg_image5.jpg" 
+		Background_MaskAnimationHorizontal = ""
+		Background_MaskSize=""
+		Background_BrightnessEffect = "no"
+	>
+	
+		<image
+			Align = "C"
+			Spacing = "0,120,0,0"
+			In_Time = "0"
+			Stay_Time = "70"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "2"
+			Animation_Continue = "no"
+			Animation_Blur = "yes"
+			Reflection_Transparency = "50"
+			Reflection_Distance = "-5"
+			
+		>
+			<path> <![CDATA[intro_asset/image1.png]]></path>
+
+		</image>
+		
+		<text
+			Align = "C"
+			Spacing = "120,0,0,0"
+			In_Time = "10"
+			Stay_Time = "30"
+			Text_Align = "0"
+			Text_LineSpacing = "-5"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction="0"
+			Animation_Glow = "yes"
+		>
+			<text font="2" In_Time="0" ><![CDATA[<font size="24" ><b>Complete customizable</b></font>]]></text> 
+			<text font="2" In_Time="12" ><![CDATA[<font size="24" ><b>Easy to Align and spacing</b></font>]]></text>  
+			<text font="2" In_Time="15" ><![CDATA[<font size="24"  color="#00f0ff" ><b>Set - In Time and Stay Time</b></font>]]></text>
+		</text>
+		
+
+	</slide>
+	
+	
+<!-- slide6  -->
+	<slide 
+		Background_image = "intro_asset/bg_image6.jpg" 
+		Background_MaskAnimationHorizontal = ""
+		Background_MaskSize="0"
+		Background_BrightnessEffect = ""
+	>
+
+		
+	<!-- Display 1 -->
+		<image
+			Align = "TL"
+			Spacing = "0,0,0,0"
+			In_Time = "5"
+			Stay_Time = "35" 
+
+			set_animation_style = "style2"
+		>
+
+			<path> <![CDATA[intro_asset/image8.jpg]]></path>
+
+		</image>
+		
+		<text
+			Align = "BL"
+			Spacing = "0,0,0,40"
+			In_Time = "10"
+			Stay_Time = "30"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "no"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "0"
+			Background_Color = "000000"
+			Background_Transparency = "90"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="18" color="#FFFFFF" >FIRST IMAGE TEXT</font></b>]]></text> 
+		
+		</text>
+
+
+	<!-- Display 2 -->
+		<image
+			Align = "TC"
+			Spacing = "0,0,0,0"
+			In_Time = "15"
+			Stay_Time = "27" 
+
+			set_animation_style = "style2"
+		>
+
+			<path> <![CDATA[intro_asset/image9.jpg]]></path>
+
+		</image>
+		
+		<text
+			Align = "BC"
+			Spacing = "0,0,0,40"
+			In_Time = "20"
+			Stay_Time = "20"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "no"
+
+			set_animation_style = "style2"
+			Background_Color = "ffffff"
+			Background_Transparency = "90"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="18" color="#000000" >SECOND IMAGE TEXT</font></b>]]></text> 
+		
+		</text>
+	
+	<!-- Display 3 -->
+		<image
+			Align = "TR"
+			Spacing = "0,0,0,0"
+			In_Time = "25"
+			Stay_Time = "18" 
+
+			set_animation_style = "style2"
+		>
+
+			<path> <![CDATA[intro_asset/image10.jpg]]></path>
+
+		</image>
+		
+		<text
+			Align = "BR"
+			Spacing = "0,0,0,40"
+			In_Time = "30"
+			Stay_Time = "13"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "no"
+
+			set_animation_style = "style2"
+			Background_Color = "000000"
+			Background_Transparency = "90"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="18" color="#ffffff" >THIRD IMAGE TEXT</font></b>]]></text> 
+		
+		</text>
+		
+	</slide>
+
+
+<!-- slide7  -->
+	<slide 
+		Background_image = "intro_asset/bg_image7.jpg" 
+		Background_MaskAnimationHorizontal = "no"
+		Background_MaskSize="150"
+		Background_BrightnessEffect = "yes"
+	>
+
+	
+		<text
+			Align = "C"
+			Spacing = "70,0,0,0"
+			In_Time = "0"
+			Stay_Time = "22"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style1"
+			Animation_Start_Direction = "3"
+			Animation_Blur = "yes"
+			Animation_Continue = "yes"
+			Animation_Glow = "yes"
+			Background_Transparency = "0"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="30" >PROFESSIONAL ANIMATION</font></b>]]></text> 
+			<text font="1" In_Time="12" ><![CDATA[<b><font size="30" >CLEAN & EYE CATCHY</font></b>]]></text>
+		
+		</text>
+		
+		<text
+			Align = "C"
+			Spacing = "0,0,0,0"
+			In_Time = "38"
+			Stay_Time = "30"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "yes"
+
+			set_animation_style = "style1"
+			Animation_Start_Direction = "0"
+			Animation_Blur = "yes"
+			Animation_Continue = "no"
+			Animation_Glow = "yes"
+			Background_Transparency = "0"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="30" >MINGLE ALL ANIMATION IN ONE SLIDE</font></b>]]></text> 
+		
+		</text>
+		
+		<text
+			Align = "C"
+			Spacing = "0,0,0,20"
+			In_Time = "72"
+			Stay_Time = "33"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "no"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "1"
+			Animation_Blur = "yes"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="60" color="#000000" >INTRO</font></b>]]></text> 
+		
+		</text>
+		
+		<text
+			Align = "C"
+			Spacing = "60,0,0,58"
+			In_Time = "77"
+			Stay_Time = "30"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "no"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "2"
+			Animation_Blur = "yes"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="45" color="#ffffff" >BANNER</font></b>]]></text> 
+		
+		</text>
+		
+		<text
+			Align = "C"
+			Spacing = "0,60,33,20"
+			In_Time = "82"
+			Stay_Time = "27"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "no"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "1"
+			Animation_Blur = "yes"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="30" color="#ffffff" >SLIDESHOW</font></b>]]></text> 
+		
+		</text>
+		
+		<text
+			Align = "C"
+			Spacing = "85,0,33,20"
+			In_Time = "87"
+			Stay_Time = "22"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "no"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "2"
+			Animation_Blur = "yes"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="30" color="#ffffff" >ANY THING</font></b>]]></text> 
+		
+		</text>
+	
+		<text
+			Align = "C"
+			Spacing = "0,0,58,20"
+			In_Time = "92"
+			Stay_Time = "20"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "no"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "5"
+			Animation_Blur = "yes"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<b><font size="40" color="#ff0000" >POSSIBLE</font></b>]]></text> 
+		
+		</text>
+		
+		<text
+			Align = "C"
+			Spacing = "0,0,0,0"
+			In_Time = "122"
+			Stay_Time = "23"
+			Text_Align = "0"
+			Text_LineSpacing = "0"
+			Text_Animation_LetterByLetter = "no"
+
+			set_animation_style = "style2"
+			Animation_Start_Direction = "0"
+			Animation_Glow = "yes"
+		>
+
+			<text font="1" In_Time="0" ><![CDATA[<a href="http://activeden.net/user/FMedia" target="_blank" ><u><b><font size="25" color="#ffffff" >CLICK HERE - LINK</font></b></u></a>]]></text> 
+		
+		</text>
+		
+	</slide>
+
+
+</data>
+
+</main>

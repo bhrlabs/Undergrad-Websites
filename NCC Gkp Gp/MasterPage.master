@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>NCC- Gorakhpur Group</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        div.background
+        {
+            width: 500px;
+            height: 250px;
+            background: url(klematis.jpg) repeat;
+            border: 2px solid black;
+        }
+        div.transbox
+        {
+            width: 910px;
+            height: auto;
+            margin: 30px 50px;
+            background-color: #ffffff;
+            border: 3px solid black; /* for IE */
+            filter: alpha(opacity=80); /* CSS3 standard */
+            opacity: 0.8;
+        }
+        div.transbox p
+        {
+            margin: 30px 40px;
+            font-weight: bold;
+            color: #000000;
+        }
+        .style2
+        {
+            color: #3366CC;
+        }
+        .style3
+        {
+            font-size: small;
+            color: #3366CC;
+        }
+        .style4
+        {
+            color: #000000;
+        }
+        .style5
+        {
+            color: #999999;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="Extras/ddsmoothmenu.css" />
+    <link rel="stylesheet" type="text/css" href="Extras/ddsmoothmenu-v.css" />
+    <script src="Extras/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Extras/ddsmoothmenu.js"></script>
+    <script type="text/javascript" src="Extras/ddinit.js"></script>
+</head>
+<body background="Images/Background.jpg" style="background-attachment: fixed">
+    <form id="form1" runat="server">
+    <center>
+        <div class="transbox" style="height: auto">
+            <table>
+                <tr>
+                    <td colspan='2'>
+                        <center>
+                            <img src="Images/Banner.gif" /></center>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 150px; vertical-align: top;">
+                        <h2 style="text-align: center">
+                            Menu</h2>
+                        <div id="smoothmenu2" class="ddsmoothmenu-v">
+                            <ul>
+                                <li><a href="index.aspx">Home</a></li>
+                                <li><a href="#">Battalions</a>
+                                    <ul>
+                                        <li><a href="44upncc.aspx">44 UP BATTALION NCC</a></li>
+                                        <li><a href="45upncc.aspx">45 UP BATTALION NCC</a></li>
+                                        <li><a href="46upncc.aspx">46 UP BATTALION NCC</a></li>
+                                        <li><a href="47upncc.aspx">47 UP BATTALION NCC</a></li>
+                                        <li><a href="48upncc.aspx">48 UP BATTALION NCC</a></li>
+                                        <li><a href="49upncc.aspx">49 UP BATTALION NCC</a></li>
+                                        <li><a href="50upncc.aspx">50 UP BATTALION NCC</a></li>
+                                        <li><a href="51upncc.aspx">51 UP BATTALION NCC</a></li>
+                                        <li><a href="52upncc.aspx">52 UP BATTALION NCC</a></li>
+                                        <li><a href="15upgirls.aspx">15 UP(Girls) BATTALION NCC</a></li>
+                                        <li><a href="1upeme.aspx">1 UP EME COY</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="login.aspx">Login</a></li>
+                                <li><a href="gallery.aspx">Gallery</a></li>
+                                <li><a href="career.aspx">Career</a></li>
+                                <li><a href="contactus.aspx">Contact Us</a></li>
+                            </ul>
+                            <br style="clear: left" />
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    </form>
+    <center style="border=5px;">
+        <span class="style5">Developers</span><span class="style4">&nbsp; </span>
+        <span class="style2"><a href="developers.aspx">
+        <span
+            class="style3">MADAN MOHAN MALAVIYA ENGINEERING COLLEGE, GORAKHPUR.</span></a></span><br />
+        <a href="http://careerairforce.nic.in/"><span class="style2">Indian Air Force</span></a><span
+            class="style2">| </span><a href="http://indianarmy.nic.in/"><span class="style2">Indian
+                Army </span></a><span class="style2">| </span><a href="http://www.nausena-bharti.nic.in/">
+                    <span class="style2">Indian Navy</span></a><span class="style2">| </span>
+        <a href="http://nccindia.nic.in/"><span class="style2">NCC India</span></a></center>
+</body>
+</html>

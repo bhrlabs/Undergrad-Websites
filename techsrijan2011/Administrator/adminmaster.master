@@ -1,0 +1,25 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/MasterPage.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<script type="text/javascript" src="~/extra/loadlistener.js"></script>
+<script type="text/javascript" src="~/extra/admin.js"></script>
+<asp:ContentPlaceHolder ID="adminhead" runat="server" ></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contentplaceholder1" Runat="Server">
+<div class="animatedtabs" style="margin-left:0px;">
+<ul ><li id="administratorhome" class=""><a href="Admin.aspx" ><span>Home</span></a></li>
+<li id="normalview" class=""><a href="Normalview.aspx" ><span>Normal view database</span></a></li>
+<li id="checkdatabase" class=""><a href="Checkdatabase.aspx" ><span>Check database</span></a></li>
+<li id="checkmessage" class=""><a href="Checkmessage.aspx" ><span>Check message</span></a></li>
+<li id="sendupdates" class=""><a href="Sendupdates.aspx" ><span>Send updates</span></a></li>
+
+
+</ul>
+</div>
+<asp:ContentPlaceHolder runat="server" ID="masteradmin"></asp:ContentPlaceHolder>
+</asp:Content>
+

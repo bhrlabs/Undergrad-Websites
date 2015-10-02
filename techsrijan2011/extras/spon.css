@@ -1,0 +1,8 @@
+.flashclass{ /*sample CSS class added to image slideshow container*/
+width: 200px; /*a width should be defined for transition to work*/
+border: 0px solid black;
+padding: 0px;
+}
+
+.flashclass img{
+border-width: 0;

@@ -1,0 +1,92 @@
+#Software: Microsoft Internet Information Services 7.0
+#Version: 1.0
+#Date: 2011-09-02 07:11:06
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2011-09-02 07:11:06 W3SVC1114575075 NY700 64.245.136.70 GET / - 80 - 117.225.26.25 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 200 0 0 10799 331 1452
+2011-09-02 07:11:06 W3SVC1114575075 NY700 64.245.136.70 GET /Publish+a+web+using+HTTP_files/image001.gif - 80 - 117.225.26.25 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 http://techsrijan.com/ 404 0 2 5506 385 421
+2011-09-02 07:11:07 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 117.225.26.25 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 404 0 2 5442 342 406
+#Software: Microsoft Internet Information Services 7.0
+#Version: 1.0
+#Date: 2011-09-02 07:43:42
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2011-09-02 07:43:42 W3SVC1114575075 NY700 64.245.136.70 GET / - 80 - 80.239.243.167 Opera/9.80+(Android;+Opera+Mini/6.1.25577/25.823;+U;+en)+Presto/2.5.25+Version/10.54 - 200 0 0 10799 744 390
+2011-09-02 07:43:42 W3SVC1114575075 NY700 64.245.136.70 GET /Publish+a+web+using+HTTP_files/image001.gif - 80 - 80.239.243.167 Opera/9.80+(Android;+Opera+Mini/6.1.25577/25.823;+U;+en)+Presto/2.5.25+Version/10.54 http://www.techsrijan.com/ 404 0 2 5510 884 124
+2011-09-02 07:43:42 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 80.239.243.167 Opera/9.80+(Android;+Opera+Mini/6.1.25577/25.823;+U;+en)+Presto/2.5.25+Version/10.54 http://www.techsrijan.com/ 404 0 2 5446 844 124
+2011-09-02 07:45:44 W3SVC1114575075 NY700 64.245.136.70 GET / - 80 - 117.225.6.67 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 200 0 0 10799 335 2358
+2011-09-02 07:45:46 W3SVC1114575075 NY700 64.245.136.70 GET /Publish+a+web+using+HTTP_files/image001.gif - 80 - 117.225.6.67 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 http://www.techsrijan.com/ 404 0 2 5510 393 1218
+2011-09-02 07:45:46 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 117.225.6.67 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 404 0 2 5446 316 812
+2011-09-02 07:45:47 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 117.225.6.67 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 404 0 2 5446 346 749
+2011-09-02 07:45:51 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 117.225.6.67 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 404 0 2 5446 346 3483
+#Software: Microsoft Internet Information Services 7.0
+#Version: 1.0
+#Date: 2011-09-02 10:33:47
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2011-09-02 10:33:47 W3SVC1114575075 NY700 64.245.136.70 GET / - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+1.1.4322) - 200 0 0 10823 383 2999
+2011-09-02 10:34:08 W3SVC1114575075 NY700 64.245.136.70 GET / - 80 - 117.224.31.137 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 200 0 0 10799 335 1780
+2011-09-02 10:34:09 W3SVC1114575075 NY700 64.245.136.70 GET /Publish+a+web+using+HTTP_files/image001.gif - 80 - 117.224.31.137 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 http://www.techsrijan.com/ 404 0 2 5510 393 749
+2011-09-02 10:34:14 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 117.224.31.137 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 404 0 2 5446 316 4967
+2011-09-02 10:34:15 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 117.224.31.137 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 404 0 2 5446 346 1124
+2011-09-02 10:34:17 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 117.224.31.137 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 404 0 2 5446 346 1124
+2011-09-02 10:47:11 W3SVC1114575075 NY700 64.245.136.70 GET / - 80 - 27.56.61.173 Mozilla/5.0+(compatible;+MSIE+9.0;+Windows+NT+6.1;+WOW64;+Trident/5.0) - 200 0 0 10799 255 1546
+#Software: Microsoft Internet Information Services 7.0
+#Version: 1.0
+#Date: 2011-09-02 11:51:42
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2011-09-02 11:51:41 W3SVC1114575075 NY700 64.245.136.70 GET / - 80 - 210.212.51.4 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 200 0 0 10799 331 921
+2011-09-02 11:51:43 W3SVC1114575075 NY700 64.245.136.70 GET /Publish+a+web+using+HTTP_files/image001.gif - 80 - 210.212.51.4 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 http://techsrijan.com/ 404 0 2 5506 385 296
+2011-09-02 11:51:44 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 210.212.51.4 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 404 0 2 5442 342 312
+2011-09-02 11:51:50 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 210.212.51.4 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 404 0 2 5442 342 328
+2011-09-02 11:52:44 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 200 0 0 2090 272 31
+2011-09-02 11:52:44 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.dll/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 200 0 0 371 398 343
+2011-09-02 11:52:48 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 200 5 0 1134 412 343
+2011-09-02 11:52:57 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 ny740053 210.212.51.4 MSFrontPage/12.0 - 200 0 0 2454 459 328
+2011-09-02 11:52:58 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 ny740053 210.212.51.4 MSFrontPage/12.0 - 200 0 0 2455 521 312
+2011-09-02 11:53:05 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 ny740053 210.212.51.4 MSFrontPage/12.0 - 200 0 0 2455 489 312
+2011-09-02 11:53:12 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 ny740053 210.212.51.4 MSFrontPage/12.0 - 200 0 0 2781 683 640
+2011-09-02 11:53:16 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 ny740053 210.212.51.4 MSFrontPage/12.0 - 200 0 0 496 517 296
+2011-09-02 11:53:17 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 ny740053 210.212.51.4 MSFrontPage/12.0 - 200 0 0 754 568 328
+2011-09-02 11:54:53 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 ny740053 210.212.51.4 MSFrontPage/12.0 - 200 0 0 496 517 296
+2011-09-02 11:54:56 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 ny740053 210.212.51.4 MSFrontPage/12.0 - 200 0 0 778 7112 827
+2011-09-02 11:55:05 W3SVC1114575075 NY700 64.245.136.70 OPTIONS / - 80 - 210.212.51.4 Microsoft-WebDAV-MiniRedir/6.1.7601 - 500 19 183 5819 135 593
+2011-09-02 11:55:22 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5847 689 577
+2011-09-02 11:55:23 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5847 517 296
+2011-09-02 11:55:27 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5847 698 296
+2011-09-02 11:55:30 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5847 551 312
+2011-09-02 11:55:35 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5847 693 296
+2011-09-02 11:56:13 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5847 517 312
+2011-09-02 11:56:35 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5847 698 296
+2011-09-02 11:56:38 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5847 688 281
+2011-09-02 11:56:40 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/_vti_aut/author.dll - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5847 517 296
+2011-09-02 12:02:29 W3SVC1114575075 NY700 64.245.136.70 GET / - 80 - 210.212.51.4 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 500 19 183 5819 335 593
+2011-09-02 12:02:48 W3SVC1114575075 NY700 64.245.136.70 GET /favicon.ico - 80 - 210.212.51.4 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)+Gecko/20100101+Firefox/6.0.1 - 500 19 183 5830 346 296
+#Software: Microsoft Internet Information Services 7.0
+#Version: 1.0
+#Date: 2011-09-02 15:35:16
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2011-09-02 15:35:16 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 117.224.237.135 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 1874
+2011-09-02 15:35:17 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 117.224.237.135 MSFrontPage/12.0 - 500 19 183 5846 398 874
+2011-09-02 15:35:18 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 117.224.237.135 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 1015
+2011-09-02 15:35:19 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 117.224.237.135 MSFrontPage/12.0 - 500 19 183 5846 398 1155
+2011-09-02 15:36:18 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 117.224.237.135 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 4920
+2011-09-02 15:36:26 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 117.224.237.135 MSFrontPage/12.0 - 500 19 183 5846 398 7123
+2011-09-02 15:36:27 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 117.224.237.135 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 890
+2011-09-02 15:36:28 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 117.224.237.135 MSFrontPage/12.0 - 500 19 183 5846 398 1155
+2011-09-02 15:49:59 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 593
+2011-09-02 15:50:00 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5846 398 296
+2011-09-02 15:50:09 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 296
+2011-09-02 15:50:09 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5846 398 328
+2011-09-02 15:50:55 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 296
+2011-09-02 15:50:57 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5846 398 312
+2011-09-02 15:51:01 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 296
+2011-09-02 15:51:01 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5846 398 296
+2011-09-02 15:51:03 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 312
+2011-09-02 15:51:07 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5846 398 312
+2011-09-02 15:51:09 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 296
+2011-09-02 15:51:12 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5846 398 296
+2011-09-02 15:52:18 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 312
+2011-09-02 15:52:22 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5846 398 281
+2011-09-02 15:52:24 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 296
+2011-09-02 15:52:26 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5846 398 281
+2011-09-02 15:52:31 W3SVC1114575075 NY700 64.245.136.70 GET /_vti_inf.html - 80 - 210.212.51.4 Mozilla/4.0+(compatible;+MS+FrontPage+12.0) - 500 19 183 5832 272 296
+2011-09-02 15:52:31 W3SVC1114575075 NY700 64.245.136.70 POST /_vti_bin/shtml.exe/_vti_rpc - 80 - 210.212.51.4 MSFrontPage/12.0 - 500 19 183 5846 398 296
+2011-09-02 15:52:32 W3SVC1114575075 NY700 64.245.136.70 GET / - 80 - 210.212.51.4 Mozilla/5.0+(Windows+NT+6.1;+rv:6.0.1)

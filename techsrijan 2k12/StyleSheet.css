@@ -1,0 +1,163 @@
+﻿@font-face {
+  font-family: 'Segoe UI';
+  font-style:normal;
+  src: url('fonts/SegoeUI.ttf') format('ttf');
+}
+@font-face {
+  font-family:'taile';
+  font-style:normal;
+  src: url('fonts/taile.ttf') format('ttf');
+}
+@font-face  { font-family:Aunchanted;
+              font-style:normal;
+              src: url('fonts/Aunchanted.ttf') format('ttf');
+}
+@font-face  { font-family:Celtic Garamond the 2nd;
+              font-style:normal;
+              src: url('fonts/CELTG.TTF') format('ttf');
+}
+#form1{ margin-left:auto; margin-right:auto;}
+#pageTable { border-collapse:collapse; border-width:0px;margin-left:auto ; margin-right:auto; margin-top:5px;}
+#header {height:auto; width:100%;background-color:transparent; background-repeat:repeat-x; background-position:center;}
+#col1 {float:left;width:10.5%;height:1px;background-color:transparent; }
+#col3 {float:right;width:10.5%;height:1px;background-color:transparent;}
+#col2 {float:left; width:79%; height:auto; background-color:#f3f3f3;}
+#bodyPart { background-color:transparent; height:auto;}
+#navshell{ height:230px; background-color:transparent; }
+#footer { height:60px; width:100%; background-color:#00afdb;}
+#navMenu { height:auto; background-color:Black; border:1px solid black;}
+.heading { width:100%; height:auto; float:left; }
+#imageRotate { width:70%; height:auto; float:right; background-color:Purple;}
+.content{  width:70%; height:auto; float:left; margin-top:20px;}
+/* Event heading */
+#hdiv{ float:left; width:100%; background-color:#00afdb; box-shadow:0px 2px 2px Silver;}
+h1.htitle{ font-size:xx-large; font-family:Aunchanted, Calibri; text-align:left; margin:5px 5px 5px 20px; color:White; font-weight:normal;}
+p.quote { font-size:18px; font-family:Calibri; font-style:italic; text-align:center;padding:15px 10px 15px 10px; margin:0px 20px 20px 10px;}
+p.hquote { font-size:18px; font-family:Calibri; font-style:italic; text-align:justify;padding:15px 10px 15px 10px; margin:0px 20px 20px 10px;}
+p.texts { padding:0px 10px 10px 10px; margin:0px 20px 20px 10px; text-align:justify; font-size:18px; font-family:Calibri; word-spacing:5px; color:Black; vertical-align:text-top;}
+.bor-bot{ border-bottom:1px solid Black;}
+.texts span{ font-style:italic; color:#00afdb;}
+#updates { height:100%; background-color:transparent; float:left; background-color:#74d199; margin-right:20px; margin-top:5px; margin-bottom:10px;}
+.udiv { float:left; width:100%; height:auto; background-color:#00afdb; margin-bottom:5px; }
+.utext { margin-top:5px; margin-bottom:5px; margin-left:10px; text-align:left; font-family:Aunchanted, Calibri; font-size:x-large; color:White; font-weight:bold;}
+#msgdiv{ float:left; width:100%; height:auto; margin-bottom:20px;}
+.msg { text-align:left; font-family:Calibri; font-size:18px; }
+.msg a:hover{ color:White;}
+#ad{ height:205px; background-color:transparent; float:right; width:255px; overflow:hidden; position:relative; margin-top:60px; margin-right:140px; }
+#sponsors { width:250px; margin:10px auto 50px auto; background-color:transparent; height:200px; position:absolute;}
+#sponsors h1 { color:Black; font-family:Segoe UI; font-size:22px; text-align:center;}
+#sponsors div { box-shadow: 3px 5px 5px Silver; border-radius:5px; }
+.inhead { float:right;  position:relative; z-index:-10; margin-top:25px; }
+#banner { margin:0px auto auto auto; background-image:url('images/untitled-24.png'); background-repeat:no-repeat; background-color:transparent; height:265px; width:1340px; overflow:visible; }
+#contentArea{}
+
+/*------------------------------------ scroller--------------------------------------- */
+
+/* press release */
+.newsEvent {   color:#0a5883; }
+.newsEvent ul{ height:165px; width:250px; margin:0 auto; padding:0 0 5px 0;}
+.newsEvent ul li { line-height:1.5em; border-bottom:1px dashed #f3f3f3;  background:none; padding:0; margin:0 5px;}
+.newsEvent ul li p { padding:5px ; margin-bottom:0; margin-left:0; border-bottom:1px dashed #8baec2; font-size:12px; line-height:17px; text-align:justify; }
+.newsEvent ul li p a { color:#0a5883; text-decoration:none;}
+.newsEvent ul li p a:hover { color:#f3f3f3;}
+
+
+/* News Scroller generalized */
+.ticker { overflow:auto; position:relative; }
+.ticker li { display:block; }
+.ticker div { margin-top:0; }
+.box p.notify { margin:5px 10px 0px 10px; font-size:15px; text-align:justify; font-family:'Segoe UI', Calibri;}
+.box p.notify:hover { color:White;}
+
+/*------------------------------------ end scroller--------------------------------------- */
+
+/*-------------------------------------footer----------------------------------------------*/
+
+#footmenu { width:79%; margin-left:auto; margin-right:auto; height:20px; border-bottom:1px solid black;}
+#footmenu ul{ background-color:transparent; width:730px; 
+margin-left:auto; margin-right:auto;
+}
+#footmenu li { display:inline-block; height:auto; width:auto; background-color:transparent; margin-right:20px; font-family:'Segoe UI', Calibri; font-size:14px; }
+#footmenu li a:hover { color:White;}
+#copy { width:310px; margin-left:auto; margin-right:auto; margin-top:7px;}
+#copy p { margin-left:auto; margin-right:auto; font-family:Segoe UI, Calibri; font-size:14px;}
+#copy p a { color:Maroon;}
+#copy p a:hover { color:White;}
+#likes { width:80px; float:right; height:auto;
+         overflow:hidden;}
+
+
+
+/*-------------------------------------end footer------------------------------------------*/
+
+/*-------------------------------------Guest------------------------------------------*/
+#gpane{ height:200px; background-color:#74d199;width:92%; float:right; background-image: url('images/guestlecture2.jpg'); overflow:hidden; background-position:center; border-radius:10px;}
+.gcontent{  width:100%; height:auto; float:left; margin-top:30px;}
+#gupdates { width:30%; height:100%; background-color:transparent; float:right; background-color:transparent; margin-right:20px; margin-top:0px; margin-bottom:10px;}
+/*-------------------------------------end guest------------------------------------------*/
+
+
+/*-----------------------------------contact Page-------------------------------------*/
+.category { width:90%; margin-top:40px; float:left; margin-left:5%; margin-right:5%;}
+.category h2 { font-size:20px; font-family:'Segoe UI', Calibri; font-weight:600; text-align:left; text-transform:capitalize; color:#555;}
+.person a h3:hover { color:#ffc425;}
+.person { width:32.33%; margin-top:5px; margin-left:1%; margin-bottom:20px;  }
+.float-l { float:left;}
+.float-r { float:right;}
+.person  h3 { font-family:'Segoe UI', Calibri; font-size:16px; color:#00afdb; text-align:left; }
+.person h2 { font-family:'Segoe UI', Calibri; font-size:14px; color:#000; text-align:left; font-weight:normal; text-transform:none; }
+
+
+/*-----------------------------------end contact page---------------------------- ------*/
+
+
+.webt a h3:hover { color:#ffc425;}
+.webt { width:45%; margin-top:5px; margin-left:5%; margin-bottom:5px;  }
+.webt  h3 { font-family:'Segoe UI', Calibri; font-size:18px; color:#00afdb; text-align:left; font-weight:400; }
+.webt h2 { font-family:'Segoe UI', Calibri; font-size:16px; color:#000; text-align:left; font-weight:normal; text-transform:none; font-weight:400; }
+.marg-bot { margin-bottom:400px;}
+
+
+/*------------------------------recovery------------------------*/
+
+
+.recoverDiv { width:300px; margin-left:auto; margin-right:auto; margin-top:40px; margin-bottom:40px; text-align:left; border:1px Solid Gray;}
+.recoverDiv p { font-family:Calibri; font-size:18px; text-align:justify; padding:20px 20px 20px 20px;}
+.controls { padding:0px 20px 20px 20px;}
+
+
+/*----------------------workshop-------------------------------*/
+
+#workpage { margin-top:20px; margin-left:4%; margin-right:4%; margin-bottom:20px; float:left; width:92%;}
+  .workshopdiv { float:left; width:100%; margin-top:20px; background-color:#eeeeee;}
+  .workshopdiv h1 { margin:20px; font-size:22px; font-weight:bold; font-family:Segoe UI, Calibri; text-align:left;}
+  .workshopdiv p { font-size:16px; font-family:Segoe UI, Calibri; text-align:justify; margin:20px;}
+  .workshopdiv h2 { margin:20px; margin-bottom:0px; font-size:20px; font-weight:bold; font-family:Segoe UI, Calibri; text-align:left;}
+  .workshopdiv ol { font-size:16px; font-family:Segoe UI, Calibri; text-align:left; margin-left:20px; margin-right:20px; list-style:1;}
+  .workshopdiv ol li { margin-left:30px;}
+  .workshopdiv ul { font-size:16px; font-family:Segoe UI, Calibri; text-align:left; margin-left:20px; margin-right:20px;}
+  .workshopdiv ul li { margin-left:30px;}
+  .webt h4 { font-family:'Segoe UI', Calibri; font-size:16px; color:#000; text-align:left; font-weight:normal; text-transform:none; font-weight:400; }
+  .bottom { margin-bottom:20px;}
+  
+  
+  
+  /*------------------------user oriented pages----------------------*/
+  
+        .eventregmenu { float:left; width:20%; }
+        .eventreg { float:left; width:79%; border-left:1px solid Gray;}
+       
+        .eventreg table { margin:50px; margin-bottom:200px;}
+        .eventreg table td { font-family:Segoe UI, Calibri; font-size:16px; text-align:left; width:200px; }
+        .txt_event { width:200px; padding:5px; margin:5px; color:Black;}
+        .lbl_event { padding:5px; padding-left:40px; margin:5px;}
+        .ddl { width:212px; height:30px; margin:5px;}
+        .btn_submit { margin:5px; border-radius:3px; border-color:#00AFDB;}
+        .lbl_msg { font-style:italic; color:Red; font-weight:500;}
+        .eventregmenu ul{ margin-top:50px; }
+        .eventregmenu ul li {  background-color:#00afdb; text-align:left; margin:5px; font-size:18px; font-weight:600; font-family:Segoe UI, Calibri; padding:10px; margin-left:10px; margin-right:10px;}
+        .lb_reg { color:White;}
+        .eventregmenu ul li:hover,.lb_reg:hover { background-color:#00627b; color:Silver; }
+        .validation { float:left; font-size:14px;}
+        
+    

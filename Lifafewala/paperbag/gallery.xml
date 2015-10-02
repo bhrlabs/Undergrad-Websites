@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SLIDESHOW 
+  speed="1.0" 
+  space="10" 
+  topSpace="20" 
+  your_website_name="yourWebsite.com-pic-"
+  minHeight="60"
+  type_speed="30"
+  remove_speed="10"
+  link_open_in="_blank"
+  background_color="0x000000"
+  allow_download="1"
+  use_hyperlink="1"
+  use_comment="1"   
+  comment_text_color="0xffffff"
+  comment_text_alpha="0.5"
+  comment_text_background_color="0x000000"
+  thumbnail_alpha="0.3">
+  <PATH URL="images/flowers/01.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/02.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/03.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/04.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/05.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/06.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/07.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/08.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/09.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/10.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/11.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  <PATH URL="images/flowers/12.jpg"/>
+  <LINK URL="http://activeDen.net"/>
+  
+<COMMENT>  When you spend 8 hours a day doing something, you probably want to do it well. Thats why weve created WorkAwesome, a resource for anyone who wants to be awesome at work.</COMMENT>
+<COMMENT>  We publish articles on everything from how to make a kick-ass PowerPoint presentation to how to survive the office Christmas party!</COMMENT>
+<COMMENT>  At Envato were very passionate about education, thats why weve created one of the most popular networks of educational blogs around.</COMMENT>
+<COMMENT>  The Envato Marketplaces allow anyone to buy or sell digital goods like WordPress themes, stock audio, After Effects project files, Flash templates and much more.</COMMENT>
+<COMMENT>  The marketplaces are home to a thriving community of over 240,000 users, authors and buyers and everyday hundreds of new files are added.</COMMENT>
+<COMMENT>  Working from home as a freelancer can be very isolating. Thats why we created FreelanceSwitch</COMMENT>
+<COMMENT> Computers have quickly become the focus of much of our time, so it makes sense to try to get the most out of them. The AppStorm network of blogs reviews, rounds up, and writes up apps for platforms like Mac OSX, Adobe Air and the web.</COMMENT>
+<COMMENT>  Creattica is a gallery of inspirational design work of all varieties from 3d to advertising, business cards to web design and of course our most popular category C logos!</COMMENT>
+<COMMENT>  Submissions come from our community of creatives and are hand picked for showcasing on the gallery to ensure only the finest work is on display.</COMMENT>
+<COMMENT>  When a few staff at Envato decided to write up a book on freelancing we decided to turn it into a whole series of books and publish them ourselves. Rockable Press is our fledgling online publishing brand and sells books, minibooks and reports.</COMMENT>
+<COMMENT>  This small side project of our Envato CEO is slowly gaining momentum and readership. Publishing how-to posts on the business of online startups, it attracts a loyal audience of enthusiastic entrepreneurs, bloggers and web developers.</COMMENT>
+<COMMENT>  Named for one of the primary colours of print design, Cyan was always destined to work in the creative fields. After working first as a graphic designer and then running a small freelance design business together with her husband Collis, she cofounded Envato as a way to work online on creative websites and get to travel the world!</COMMENT>
+</SLIDESHOW>

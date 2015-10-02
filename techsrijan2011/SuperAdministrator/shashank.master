@@ -1,0 +1,28 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/MasterPage.master" %>
+
+<script runat="server">
+
+</script>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<script type="text/javascript" src="~/extra/superadmin.js"></script>
+<asp:ContentPlaceHolder ID="superadminhead" runat="server" ></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div class="animatedtabs" style="margin-left:0px;">
+<ul >
+<li id="superadministratorhome" class=""><a href="SuperAdmin.aspx" ><span>Home</span></a></li>
+<li id="normalview" class=""><a href="Normalview.aspx" ><span>Normaldatabase</span></a></li>
+<li id="checkdatabase" class=""><a href="Checkdatabase.aspx" ><span>Chkdatabase</span></a></li>
+<li id="newuser" class=""><a href="Createnewuser.aspx" ><span>New user</span></a></li>
+<li id="deleteuser" class=""><a href="Deleteuser.aspx" ><span>Delete user</span></a></li>
+<li id="roles" class=""><a href="Roles.aspx" ><span>Roles</span></a></li>
+<li id="mail" class=""><a href="Mailzone.aspx" ><span>Mail</span></a></li>
+
+</ul>
+</div>
+<asp:ContentPlaceHolder ID="superadminmaster" runat="server" >
+</asp:ContentPlaceHolder>
+
+</asp:Content>
+

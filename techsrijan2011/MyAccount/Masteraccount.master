@@ -1,0 +1,64 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/MasterPage2.master" %>
+
+<script runat="server">
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
+        
+    End Sub
+</script>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <link rel="icon" type="image/gif" href="../images/favicon.gif" />
+    <script type="text/javascript" src="~/extra/loadlistener.js"></script>
+    <script src="~/extra/account.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../extras/hoverscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="../extras/hoverstyle.css" />
+    <center>
+        <div style="background-image: url('../images/formback.jpg'); background-attachment: fixed;
+            width: 900px; height: auto;">
+            <div align="center">
+                <img src="../images/banner.gif" alt="Banner">
+            </div>
+            <body background="../images/Backdrop.jpg" style="background-position: left top; background-repeat: repeat;
+                background-attachment: fixed;">
+                <asp:ContentPlaceHolder ID="accounthead" runat="server">
+                </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div style="background-image: url(../images/black1.jpg); border:5pp">
+        <div id="animmenu" class="noscript">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="home.aspx"><span>Home</span></a>
+                    </td>
+                    <td>
+                        <a href="Profile.aspx"><span>Profile</span></a>
+                    </td>
+                    <td>
+                        <a href="Eventregistration.aspx"><span>Event Registration</span></a>
+                    </td>
+                    <td>
+                        <a href="Registeredevents.aspx"><span>Registered Events</span></a>
+                    </td>
+                    <td>
+                        <a href="ChangePassword.aspx"><span>Change password</span></a>
+                    </td>
+                </tr>
+            </table>
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="../Home.aspx"><span>techSRIJAN Home</span></a>
+                    </td>
+                    <td>
+                       <asp:LoginStatus ID="loginstatus1" runat="server" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <center>
+            <asp:ContentPlaceHolder ID="masteraccount1" runat="server">
+            </asp:ContentPlaceHolder>
+        </center>
+    </div>
+</asp:Content>

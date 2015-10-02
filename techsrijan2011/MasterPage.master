@@ -1,0 +1,344 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>techSRIJAN 2011</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/gif" href="images/favicon.gif" />
+    <link rel="stylesheet" type="text/css" href="extras/style.css" />
+    <link rel="stylesheet" type="text/css" href="extras/spon.css" />
+    <script type="text/javascript" src="extras/dolphin.js"></script>
+    <script type="text/javascript" src="extras/transitionshow.js"></script>
+    <script type="text/javascript" src="extras/dolphintabs.js"></script>
+    <link rel="stylesheet" href="extras/layout.css" type="text/css" />
+    <script type="text/javascript" src="extras/jquery-1.4.1.min.js"></script>
+    <script type="text/javascript" src="extras/jquery.slidepanel.setup.js"></script>
+    <script type="text/javascript" src="extras/jquery-ui-1.7.2.custom.min.js"></script>
+    <script type="text/javascript" src="extras/jquery.tabs.setup.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1
+        {
+            width: 900px;
+            top: 328px;
+            left: 149px;
+            position: relative;
+            height: 731px;
+            right: -149px;
+        }
+        .style3
+        {
+            width: 685px;
+        }
+        .style4
+        {
+            width: 892px;
+        }
+        .style5
+        {
+            font-family: Cambria;
+        }
+        .style6
+        {
+            font-family: Cambria;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body background="images/Backdrop.jpg" style="background-position: left top; background-repeat: repeat;
+    background-attachment: fixed;">
+    <center>
+        <form id="form1" runat="server">
+        <div style="background-image: url('images/formback.jpg'); background-attachment: fixed;
+            width: 900px; height: auto;">
+            <center>
+                <table style="width: 900px">
+                    <tr>
+                        <td colspan='2'>
+                            <div class="wrapper col0" style="width: 893px; background-color: #313131">
+                                <div id="topbar">
+                                    <div id="slidepanel">
+                                        <div class="topbox">
+                                            <h2>
+                                                techSRIJAN 2011</h2>
+                                            <p>
+                                                Members Sign in ..</p>
+                                            <br class="clear" />
+                                            <br class="clear" />
+                                            <br class="clear" />
+                                            <br class="clear" />
+                                            <h2>
+                                                Sign Up Here:-</h2>
+                                            <asp:LinkButton ID="lb1" runat="server" Text="Sign Up" PostBackUrl="~/Signup.aspx"
+                                                BorderWidth="1" BorderColor="Gray" BackColor="White" ForeColor="Black"></asp:LinkButton>
+                                            <%-- <asp:Button ID="Button1" runat="server" Text="Sign Up" />--%>
+                                        </div>
+                                        <div class="topbox last" style="float: left">
+                                            <h2>
+                                                Members Login Here</h2>
+                                            <asp:LoginView ID="loginview1" runat="server">
+                                                <LoggedInTemplate>
+                                                    Welcome
+                                                    <asp:LoginName ID="loginname1" runat="server" />
+                                                </LoggedInTemplate>
+                                                <AnonymousTemplate>
+                                                    <asp:Login ID="Login1" runat="server" HelpPageText="Contact administrator for help"
+                                                        HelpPageUrl="~/Help.aspx" PasswordRecoveryText="Forgot Password" PasswordRecoveryUrl="~/Passwordrecovery.aspx"
+                                                        OnLoggingIn="Login1_LoggingIn" OnLoad="Login1_Load">
+                                                        <LayoutTemplate>
+                                                            <table border="0" cellpadding="1" cellspacing="0" style="border-collapse: collapse;">
+                                                                <tr>
+                                                                    <td>
+                                                                        <table border="0" cellpadding="0">
+                                                                            <tr>
+                                                                                <td align="center" colspan="3" style="font-weight: bold; font-size: medium;">
+                                                                                    Log In
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td colspan="2">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="left">
+                                                                                    <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName" Font-Bold="true">User 
+                                    Name:</asp:Label>
+                                                                                </td>
+                                                                                <td style="width: 20px;">
+                                                                                </td>
+                                                                                <td align="left">
+                                                                                    <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
+                                                                                </td>
+                                                                                <td style="min-width: 70px;">
+                                                                                    <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName"
+                                                                                        ErrorMessage="User Name is required." ToolTip="User Name is required." ValidationGroup="ctl01$Login1">*</asp:RequiredFieldValidator>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="left">
+                                                                                    <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password" Font-Bold="true">Password:</asp:Label>
+                                                                                </td>
+                                                                                <td style="width: 20px;">
+                                                                                </td>
+                                                                                <td>
+                                                                                    <asp:TextBox ID="Password" runat="server" TextMode="Password"></asp:TextBox>
+                                                                                    <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password"
+                                                                                        ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="ctl01$Login1">*</asp:RequiredFieldValidator>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td colspan="2">
+                                                                                    <asp:CheckBox ID="RememberMe" runat="server" Text="Remember me next time." Font-Bold="true" />
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="center" colspan="2" style="color: Red;">
+                                                                                    <asp:Literal ID="FailureText" runat="server" EnableViewState="False"></asp:Literal>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td align="right" colspan="3">
+                                                                                    <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Log In" ValidationGroup="ctl01$Login1" />
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td colspan="2">
+                                                                                    <br />
+                                                                                    <asp:HyperLink ID="HelpLink" runat="server" NavigateUrl="~/Help.aspx">Contact 
+                                    administrator for help</asp:HyperLink>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </LayoutTemplate>
+                                                    </asp:Login>
+                                                </AnonymousTemplate>
+                                            </asp:LoginView>
+                                        </div>
+                                        <br class="clear" />
+                                    </div>
+                                    <div id="loginpanel">
+                                        <ul>
+                                            <li class="left">&raquo;</li>
+                                            <li class="right" id="toggle"><a id="slideit" href="#slidepanel">Login Here</a><a
+                                                id="closeit" style="display: none;" href="#slidepanel">Close Panel</a></li>
+                                        </ul>
+                                    </div>
+                                    <br class="clear" />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan='2'>
+                            <div>
+                                <a href="intro.aspx">
+                                    <img src="images/banner.gif" alt="Banner" class="style4" /></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table style="background-color: transparent;">
+                    <tr>
+                        <td>
+                            <center>
+                                <ul id="css3menu1" class="topmenu" style="width: 885px; background-color: transparent">
+                                    <li class="topfirst"><a href="Home.aspx" title="Home" style="height: 16px; line-height: 16px;">
+                                        &nbsp; Home&nbsp;</a></li>
+                                    <li class="topmenu"><a href="Events.aspx" title="Events" style="height: 16px; line-height: 16px;">
+                                        <span>&nbsp;Events&nbsp;</span></a>
+                                        <ul>
+                                            <li class="subfirst"><a href="codzilla.aspx" title="codZILLA">codZILLA</a></li>
+                                            <li><a href="incognito.aspx" title="inCOGNITO"><span>inCOGNITO</span></a>
+                                                <ul>
+                                                    <li class="subfirst"><a href="incognito_langaming.aspx" title="Lan Gaming">Lan Gaming</a></li>
+                                                    <li><a href="incognito_labyrinth.aspx" title="Labyrinth">Labyrinth</a></li>
+                                                    <li><a href="incognito_informals.aspx" title="Informals">Informals</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="nirmaan.aspx" title="nirMAAN"><span>nirMAAN</span></a>
+                                                <ul>
+                                                    <li class="subfirst"><a href="abinitio.aspx" title="abINITIO">abINITIO</a></li>
+                                                    <li><a href="bridgekriti.aspx" title="bridgeKRITI">bridgeKRITI</a></li>
+                                                    <li><a href="junkyardwars.aspx" title="junkyardWARS">junkyardWARS</a></li>
+                                                    <li><a href="sanscarburant.aspx" title="sansCARBURANT">sansCARBURANT</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="quizzes.aspx" title="quizzes"><span>quizzes</span></a>
+                                                <ul>
+                                                    <li class="subfirst"><a href="techneeti.aspx" title="techNEETI">techNEETI</a></li>
+                                                    <li><a href="bizgyan.aspx" title="bizGYAN">bizGYAN</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="robokriti.aspx" title="roboKRITI"><span>roboKRITI</span></a>
+                                                <ul>
+                                                    <li class="subfirst"><a href="belligerent.aspx" title="belliGERENT">belliGERENT</a></li>
+                                                    <li><a href="embot.aspx" title="emBOT">emBOT</a></li>
+                                                    <li><a href="imbroglio.aspx" title="imBROGLIO">imBROGLIO</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="techpradarshini.aspx" title="techPRADARSHINI"><span>techPRADARSHINI</span></a>
+                                                <ul>
+                                                    <li class="subfirst"><a href="softrachana.aspx" title="softRACHANA">softRACHANA</a></li>
+                                                    <li><a href="hardrachana.aspx" title="hardRACHANA">hardRACHANA</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="techprastuti.aspx" title="techPRASTUTI">techPRASTUTI</a></li>
+                                            <li><a href="techshilp.aspx" title="techSHILP">techSHILP</a></li>
+                                            <li><a href="ventura.aspx" title="venTURA">venTURA</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="topmenu"><a title="Workshops" style="height: 16px; line-height: 16px;"><span>
+                                        &nbsp;Workshops&nbsp;</span></a>
+                                        <ul>
+                                            <li class="subfirst"><a href="android.aspx" title="Android">Android</a></li>
+                                            <li><a href="micromouse.aspx" title="Micro Mouse">Micro Mouse</a></li>
+                                            <li><a href="autospark.aspx" title="Auto Spark">AutoSPARK</a></li>
+                                            <li><a href="guestlectures.aspx" title="Guest Lectures">Guest Lectures</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="toplast"><a href="hospitality.aspx" title="&nbsp;Hospitality&nbsp;" style="height: 16px;
+                                        line-height: 16px;">&nbsp;Hospitality&nbsp;</a></li>
+                                    <li class="topmenu"><a href="Pratibimb.aspx" title="&nbsp;Pratibimb&nbsp;" style="height: 16px;
+                                        line-height: 16px;">&nbsp;Pratibimb&nbsp;</a></li>
+                                    <li class="toplast"><a href="signup.aspx" title="&nbsp;Register&nbsp;" style="height: 16px; line-height: 16px;">
+                                        &nbsp;Register&nbsp;</a></li>
+                                    <li class="toplast"><a href="MyAccount/Home.aspx" title="&nbsp;My Account&nbsp;" style="height: 16px;
+                                        line-height: 16px;">&nbsp;My Account&nbsp;</a></li>
+                                    <li class="topmenu"><a href="gallery.aspx" title="Gallery" style="height: 16px; line-height: 16px;">
+                                        &nbsp;Gallery&nbsp;</a></li>
+                                    <li class="topmenu"><a href="downloads.aspx" title="Downloads" style="height: 16px;
+                                        line-height: 16px;">&nbsp;Downloads&nbsp;</a></li>
+                                    <li class="topmenu"><a href="sponsors.aspx" title="&nbsp;Sponsors&nbsp;" style="height: 16px;
+                                        line-height: 16px;">&nbsp;Sponsors&nbsp;</a></li>
+                                    <li class="topmenu"><a href="contacts.aspx" title="Contact Us" style="height: 16px;
+                                        line-height: 16px;">&nbsp;Contact Us&nbsp;</a></li>
+                            </center>
+                            </ul> </ul>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td rowspan="4" class="style3" style="background-image: url(images/black1.jpg)">
+                            <div style="margin-right: 50px; margin-left: 50px;">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                            </div>
+                        </td>
+                        <td style="height: 200px; background-image: url(images/black2.png)">
+                                <div id="typeupdate" style="position: relative; overflow: hidden;">
+                                    <h3 style="text-align: center; font-family: Maiandra GD; font-size: 20px; color: white;
+                                        font-weight: bold" class="style5">
+                                        UPDATES</h3>
+                                    <script type="text/javascript" src="extras/scroller.js">  </script>
+                                </div>
+                            </td>
+						<tr>
+                          <td style="height: 200px; background-image: url(images/black2.png)">
+                            <div id="containers" style="text-align: center;">
+                                <h3 style="text-align: center; font-family: Cambria; color: white; font-size: 20px;
+                                    position: relative; overflow: hidden;">
+                                    SPONSORS</h3>
+                                <center>
+                                    <script type="text/javascript" src="extras/sponview.js"></script>
+                                </center>
+                            </div>
+                        </td>  
+                        </tr>
+                        <tr>
+                            <td style="background-image: url(images/black2.png); height:200px;">
+                                <h3 style="text-align: center; font-family: Cambria; font-size: 20px; color: white;
+                                    font-weight: bold" class="style5">
+                                    PLATINUM
+                                    <br />
+                                    SPONSOR</h3>
+                                <center>
+                                    <a href="http://www.ongcindia.com/">
+                                        <img alt="ONGC" src="images/s-ongc.png" style="height: 100px; width: 120px" /></a>
+                                        <br />
+                                        <a href="http://www.tcs.com/">
+                                        <img alt="TCS" src="images/s-tcs.jpg" /></a>
+                                    <br />
+                                    <br />
+                        </tr>
+                        <tr>
+                            <td style="background-image: url(images/black2.png); vertical-align:top;">
+                                <h3 style="text-align: center; font-family: Cambria; font-size: 20px; color: white;
+                                    font-weight: bold" class="style5">
+                                    FOLLOW US ON</h3>
+                                <table width="75" border="0px" align="center" id="t1" style="border-style: solid;">
+                                    <tr>
+                                        <td width="35" height="35" align="center">
+                                            <a href="http://www.twitter.com/techSRIJAN2011" target="_blank">
+                                                <img src="images/tw.png" height="33" width="29" alt="Twitter" /></a>
+                                        </td>
+                                        <td width="35" height="35" align="center">
+                                            <a href="http://www.facebook.com/groups/techsrijan/" target="_blank">
+                                                <img src="images/fb.png" height="33" width="29" alt="Facebook" /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br />
+                            </td>
+                        </tr>
+                    </tr>
+                </table>
+            </center>
+        </div>
+        </form>
+    </center>
+</body>
+</html>

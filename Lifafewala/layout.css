@@ -1,0 +1,90 @@
+.site_center {
+	width:990px;
+	text-align:left;
+	margin-top: 5px; /**margin-top: 5;**/
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	position:relative;
+}
+.fb-like{
+	position:absolute;
+	left:0;
+	top:0;
+	width:200px;
+}
+.fb{
+	position:absolute;
+	left:200px;
+	top:0;
+}
+.icon2{
+	position:absolute;
+	left:0;
+	top:30px;
+	width:200px;
+}
+.home_site_center {
+	width:900px;
+	text-align:left;
+	margin-top: 5px; /**margin-top: 5;**/
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+
+.col_1, .col_2, .col_3, .col_box_1, .col_box_2, .separator{ float:left;}
+.separator{ width:65px; background:url(images/separator.gif) 35px 0 repeat-y;}
+
+/*======= index.html =======*/
+#page1 .content .col_1{width:900px;}
+#page1 .content .col_2{width:237px;}
+#page1 .content .col_3{width:400px;}
+/*=========================*/
+
+/*======= index-1.html =======*/
+#page2 .content .col_1{width:900px;}
+#page2 .content .col_2{width:288px;}
+#page2 .content .col_3{width:206px;}
+/*=========================*/
+
+
+/*======= index-2.html =======*/
+#page3 .content .col_1{width:900px;}
+#page3 .content .col_2{width:346px;}
+#page3 .content .col_3{width:201px;}
+/*=========================*/
+
+
+/*======= index-3.html =======*/
+#page4 .content .col_1{width:900px;}
+#page4 .content .col_2{width:540px;}
+/*=========================*/
+
+/*======= index-4.html =======*/
+#page5 .content .col_1{width:900px;}
+#page5 .content .col_2{width:512px;}
+/*=========================*/
+
+/*======= index-5.html =======*/
+#page6 .content .col_1{width:900px;}
+#page6 .content .col_2{width:549px;}
+/*=========================*/
+
+/*======= index-6.html =======*/
+#page7 .content .col_1{width:900px;}
+#page7 .content .col_2{width:235px;}
+#page7 .content .col_3{width:250px;}
+/*=========================*/
+
+/*======= index-7.html =======*/
+#page8 .content .col_1{width:900px;}
+#page8 .content .col_2{width:549px;}
+/*=========================*/
+
+/*======= index-8.html =======*/
+#page9 .content .col_1{width:856px;}
+/*=========================*/
+
+

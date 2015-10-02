@@ -1,0 +1,10 @@
+#animmenu a  {
+display: block; clear: both; width: 125px;
+font-size: 100%; line-height: 30px; text-align:center;
+padding: 0 10px 0 20px;
+color: black; text-decoration: none;
+margin: 1em 0.5em 0.5em 0.5em;
+background: #EAEEF2 url(http://www.techsrijan.com/images/menuanim.png) 0px 0px no-repeat;
+}
+#animmenu a:hover {color: #400;}
+#animmenu.noscript a:hover {background: #AEB7C6 url(menuanim.png) 0px -420px;}

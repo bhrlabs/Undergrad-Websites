@@ -1,0 +1,29 @@
+﻿body {
+}
+#table1
+{
+    position:absolute;
+    top:25px;
+    left:25px;
+}
+#table2
+{position:absolute ;
+ top:25px;
+ left:200px;
+}
+#title1
+{
+    width:200px;
+}
+#sentby1
+{
+    width:100px;
+}
+#datetime1
+{
+    width:100px;
+}
+#delete
+{
+    width:25px;
+}

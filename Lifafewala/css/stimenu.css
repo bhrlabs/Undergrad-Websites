@@ -1,0 +1,76 @@
+/*Sliding Text and Icon Menu Style*/
+.sti-menu{
+	width:1065px;
+	margin:0px auto 0px auto;
+	
+}
+.sti-menu li{
+	float:left;
+	width:150px;
+	height:200px;
+	margin:1px;
+}
+.sti-menu li a{
+	display:block;
+	overflow:hidden;
+	background:#f7ef85;
+	text-align:center;
+	height:100%;
+	width:100%;
+	position:relative;
+	-moz-box-shadow:1px 1px 2px #ddd;
+	-webkit-box-shadow:1px 1px 2px #ddd;
+	box-shadow:1px 1px 2px #ddd;
+}
+
+.sti-menu li a h2{
+	color:#000;
+	font-family:Calibri; 
+	font-size:18px;
+	font-weight:normal;
+	text-transform:uppercase;
+	position:absolute;
+	padding:1px;
+	width:150px;
+	top:160px;
+	left:0px;
+	/*text-shadow: 0px 1px 1px black;*/
+}
+.sti-menu li a h3{
+	font-family: Baskerville, "Hoefler Text", Garamond, "Times New Roman", serif; 
+	font-size:18px;
+	font-style:italic;
+	color: #111;
+	position:absolute;
+	top:160px;
+	left:0px;
+	width:140px;
+	padding:1px;
+}
+.sti-icon{
+	width:100px;
+	height:100px;
+	position:absolute;
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	left:25px;
+	top:25px;
+}
+.sti-icon-home{
+	background-image:url(../images/menu/home.png);
+}
+.sti-icon-events{
+	background-image:url(../images/menu/events.png);
+}
+.sti-icon-krypto{
+	background-image:url(../images/menu/crypto.png);
+}
+.sti-icon-workshops{
+	background-image:url(../images/menu/workshop.png);
+}
+.sti-icon-guests{
+	background-image:url(../images/menu/guest.png);
+}
+.sti-icon-sponsors{ background-image:url(../images/menu/sponsers.png); }
+.sti-icon-gallery{ background-image:url(../images/menu/gallery.png); }

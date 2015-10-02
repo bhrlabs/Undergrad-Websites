@@ -1,0 +1,55 @@
+@import url('reset.css');
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans Narrow'), local('PTSans-Narrow'), url('../fonts/PT_Sans-Narrow-Web-Bold.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Wire One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Wire One'), local('WireOne'), url('../fonts/WireOne.ttf') format('woff');
+}
+body
+{
+    
+ background-image: url('../images/content.jpg');
+	font-family:'Georgia', 'Trebuchet MS', serif;
+	font-size:12px;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+.clr{
+	clear:both;
+}
+.container {
+	width:1065px;
+	z-index:100;
+	vertical-align:middle;
+	background-color:transparent;
+	margin-left:139px;
+}
+.header{
+	padding-top:40px;
+}
+.content {
+	width:1000px;
+	margin:0 auto;
+}
+/*
+h1{
+	margin:10px 0 0px 20px;
+	font-size:80px;
+	color:#000;
+	text-shadow:1px 1px 1px #fff;
+	font-family: 'taile'; 
+}
+*/
+h1 span{
+	font-size:22px;
+	text-transform:uppercase;
+}
+

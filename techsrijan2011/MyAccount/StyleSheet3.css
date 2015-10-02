@@ -1,0 +1,50 @@
+﻿#home
+{
+    background-image :url(home.jpg);
+    background-repeat:no-repeat ;
+    padding:5px;
+    margin-right :5px;
+}
+#hospitality
+{
+    background-image :url(hospitality.jpg);
+    background-repeat :no-repeat ;
+    padding:5px;
+    margin-right :5px;
+}
+#register
+{
+    background-image:url(register.jpg);
+    background-repeat :no-repeat ;
+    padding:5px;
+    margin-right :5px;
+}
+#td1
+{
+    background-image :url(home.jpg);
+    background-repeat:no-repeat ;
+    padding:5px;
+    margin-right :5px;
+}
+#td2
+{
+    background-image :url(hospitality.jpg);
+    background-repeat :no-repeat ;
+    padding:5px;
+    margin-right :5px;
+}
+#td3
+{
+    background-image:url(register.jpg);
+    background-repeat :no-repeat ;
+    padding:5px;
+    margin-right :5px;
+}
+#row1
+{
+  margin:50px;
+}
+#row2
+{
+    margin:50px;
+}
